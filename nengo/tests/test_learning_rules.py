@@ -1,5 +1,3 @@
-from inspect import getfullargspec
-
 import numpy as np
 import pytest
 
