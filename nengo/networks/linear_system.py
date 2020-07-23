@@ -87,7 +87,7 @@ def ss2sim(sys, synapse, dt=None):
     #   coefficients. By summing them together, we are implicitly assuming that
     #   the output of the synapse will stay constant across
     #   synapse.order_num + 1 time-steps. This is also related to:
-    #   http://dsp.stackexchange.com/questions/33510/difference-between-convolving-before-after-discretizing-lti-systems  # noqa: E501
+    #       http://dsp.stackexchange.com/questions/33510
     # For example, if we have H = Lowpass(0.1), then the only difference
     #   between sys1 = cont2discrete(H*H, dt) and
     #           sys2 = cont2discrete(H, dt)*cont2discrete(H, dt), is that
